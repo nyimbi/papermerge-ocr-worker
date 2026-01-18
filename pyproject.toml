@@ -22,6 +22,11 @@ httpx = "^0.28.1"
 psycopg2 = { version = "^2.9.11", optional = true}
 mysqlclient = {version = "^2.2.7", optional = true}
 lxml = "^5.4.0"
+opencv-python = "^4.10"
+numpy = "^2.0"
+pdf2image = "^1.17"
+uuid-extensions = "^0.1"
+pillow = "^11.0"
 
 [tool.poetry.extras]
 mysql = ["mysqlclient"]
